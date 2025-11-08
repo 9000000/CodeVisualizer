@@ -1,10 +1,10 @@
 import * as vscode from "vscode";
 import { FlowchartViewProvider } from "./view/FlowchartViewProvider";
 import { FlowchartPanelProvider } from "./view/FlowchartPanelProvider";
-import { initLanguageServices } from "./logic/language-services";
-import { LLMManager } from "./logic/llm/LLMManager";
-import { setExtensionContext } from "./logic/llm/LLMContext";
-import { EnvironmentDetector } from "./logic/utils/EnvironmentDetector";
+import { initLanguageServices } from "./core/language-services";
+import { LLMManager } from "./core/llm/LLMManager";
+import { setExtensionContext } from "./core/llm/LLMContext";
+import { EnvironmentDetector } from "./core/utils/EnvironmentDetector";
 
 export async function activate(context: vscode.ExtensionContext) {
   console.log("CodeVisualizer extension is now active!");
