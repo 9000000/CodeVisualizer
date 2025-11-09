@@ -10,6 +10,10 @@ CodeVisualizer is a powerful VS Code extension that provides two main visualizat
 
 
 
+
+https://github.com/user-attachments/assets/60b544ed-5149-4b79-b187-35325a3c41fe
+
+
 https://github.com/user-attachments/assets/b323bbc8-5c1d-4865-aa12-3235706a33fc
 
 
