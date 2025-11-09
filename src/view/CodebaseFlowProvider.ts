@@ -7,9 +7,6 @@ import { EnvironmentDetector } from "../core/utils/EnvironmentDetector";
 const MERMAID_VERSION = "11.8.0";
 const SVG_PAN_ZOOM_VERSION = "3.6.1";
 
-/**
- * Provider for visualizing entire codebase flow (inspired by dependency-cruiser)
- */
 export class CodebaseFlowProvider {
   private _panel: vscode.WebviewPanel | undefined;
   private _extensionUri: vscode.Uri;
@@ -35,7 +32,7 @@ export class CodebaseFlowProvider {
     // Create new panel
     this._panel = vscode.window.createWebviewPanel(
       "codevisualizer.codebaseFlow",
-      "📦 Codebase Flow",
+      "Codebase Flow",
       viewColumn,
       {
         enableScripts: true,
