@@ -45,7 +45,7 @@ Transform individual functions into interactive, visual flowcharts to understand
 Analyze and visualize the entire codebase structure, showing module dependencies, file relationships, and project architecture.
 
 **Supported Languages:**
-- TypeScript/JavaScript (`.js`, `.jsx`, `.ts`, `.tsx`, `.mjs`, `.cjs`)
+- TypeScript/JavaScript (`.js`, `.ts`, `.mjs`, `.cjs`)
 - Python (`.py`)
 
 **Capabilities:**
@@ -159,26 +159,6 @@ When enabled, AI labels replace technical node labels (like variable names, cond
 - Never transmitted except to the selected LLM provider when making API calls
 - You can clear stored keys anytime via settings
 
-## Installation
-
-### From VS Code Marketplace
-
-1. Open VS Code
-2. Go to Extensions (Ctrl+Shift+X / Cmd+Shift+X)
-3. Search for "CodeVisualizer"
-4. Click Install
-
-### From Source
-
-```bash
-git clone https://github.com/DucPhamNgoc08/CodeVisualizer.git
-cd CodeVisualizer
-npm install
-npm run compile
-```
-
-Then press F5 in VS Code to run the extension in a new window.
-
 ## Usage
 
 ### Generating Function Flowcharts
@@ -215,7 +195,7 @@ Then press F5 in VS Code to run the extension in a new window.
 
 | Language | Status | File Extensions |
 |----------|--------|----------------|
-| TypeScript/JavaScript | Full Support | `.js`, `.jsx`, `.ts`, `.tsx`, `.mjs`, `.cjs` |
+| TypeScript/JavaScript | Full Support | `.js`, `.ts`, `.mjs`, `.cjs` |
 | Python | Full Support | `.py` |
 
 **Note:** Codebase dependency analysis currently supports TypeScript/JavaScript and Python. Support for additional languages (Java, C++, C, Rust, Go) is planned for future releases.
