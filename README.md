@@ -201,15 +201,15 @@ Then press F5 in VS Code to run the extension in a new window.
 
 ### Function-Level Flowcharts
 
-| Language | Status | Features |
-|----------|--------|----------|
-| Python | Full Support | Functions, classes, loops, exceptions, async |
-| TypeScript/JavaScript | Full Support | Functions, classes, loops, promises, async/await |
-| Java | Full Support | Methods, classes, loops, exceptions |
-| C++ | Full Support | Functions, classes, loops, exceptions |
-| C | Full Support | Functions, loops, conditionals |
-| Rust | Full Support | Functions, match, loops, error handling |
-| Go | Full Support | Functions, goroutines, error handling |
+| Language | Status |
+|----------|--------|
+| Python | Full Support |
+| TypeScript/JavaScript |
+| Java | Full Support |
+| C++ | Full Support |
+| C | Full Support |
+| Rust | Full Support |
+| Go | Full Support |
 
 ### Codebase Dependency Visualization
 
