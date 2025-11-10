@@ -217,10 +217,10 @@ Get CodeVisualizer up and running in your VS Code environment in just a few clic
 
 ### Codebase Dependency Visualization
 
-| Language | Status | File Extensions | Import Styles |
-|----------|--------|----------------|---------------|
-| TypeScript/JavaScript | Full Support | `.js`, `.ts`, `.mjs`, `.cjs` | ES6 imports, CommonJS require |
-| Python | Full Support | `.py` | import, from...import |
+| Language | Status | File Extensions | 
+|----------|--------|----------------|
+| TypeScript/JavaScript | Full Support | `.js`, `.ts`, `.mjs`, `.cjs` | 
+| Python | Full Support | `.py` | 
 
 **Planned Support:** Java, C++, C, Rust, Go dependency analysis coming in future releases.
 
