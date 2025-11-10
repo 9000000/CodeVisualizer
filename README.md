@@ -204,7 +204,7 @@ Then press F5 in VS Code to run the extension in a new window.
 | Language | Status |
 |----------|--------|
 | Python | Full Support |
-| TypeScript/JavaScript |
+| TypeScript/JavaScript | Full Support |
 | Java | Full Support |
 | C++ | Full Support |
 | C | Full Support |
